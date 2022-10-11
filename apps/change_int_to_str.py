@@ -3,6 +3,9 @@
 aid=01A6vdtxxep9ipCNTfs3jujuj1tHwazpU7vQWJTf8njdk2xxQ.&cfrom=28B5295010&cuid=5709529354&noncestr=
 f23D92YO2Y05KYhKD9gEj6R9eOr9dd&platform=ANDROID&timestamp=1665209725213&ua=
 Xiaomi-RedmiNote94G__oasis__3.5.8__Android__Android11&version=3.5.8&vid=2006885474773&wm=20004_90024
+
+
+chr  ord 对应关系
 """
 c = [97,105,100,61,48,49,65,54,118,100,116,120,120,101,112,57,105,112,67,78,84,102,115,51,106,117,106,117,106,49,116,72,
      119,97,122,112,85,55,118,81,87,74,84,102,56,110,106,100,107,50,120,120,81,46,38,99,102,114,111,109,61,50,56,66,53,
@@ -18,3 +21,6 @@ end = ""
 for one in c:
     end += chr(one)
 print(end)
+
+
+print(ord("a"))
